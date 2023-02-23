@@ -1,5 +1,11 @@
-<!-- ((! set title Set !)) ((! set learn !)) -->
-<!-- ((! set center !)) -->
+---
+id: sets
+title: Sets
+description: >
+  The standard library's Set module
+category: "data-structures"
+date: 2021-05-27T21:07:30-00:00
+---
 
 # Set
 
