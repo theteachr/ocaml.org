@@ -400,3 +400,36 @@ module Code_example : sig
 
   val get : string -> t
 end
+
+module Governance : sig
+  module Member : sig
+    type t = { name : string; github : string; role : string }
+
+    val compare : t -> t -> int
+  end
+
+  type contact_kind = GitHub | Email | Discord | Chat
+  type contact = { name : string; link : string; kind : contact_kind }
+
+  type dev_meeting = {
+    date : string;
+    time : string;
+    link : string;
+    invite : string;
+    notes : string;
+  }
+
+  type team = {
+    id : string;
+    name : string;
+    description : string;
+    contacts : contact list;
+    dev_meeting : dev_meeting option;
+    members : Member.t list;
+    subteams : team list;
+  }
+
+  val teams : team list
+  val working_groups : team list
+  val get_by_id : string -> team option
+end
