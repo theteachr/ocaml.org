@@ -98,7 +98,7 @@ teams:
   subteams:
   - id: dune-dev
     name: Dune
-    description: The Dune development team
+    description: A composable build system for OCaml
     contacts:
     - name: GitHub
       link: https://github.com/ocaml/dune
@@ -139,7 +139,7 @@ teams:
       role: Maintainer
   - id: opam-dev
     name: Opam
-    description: The Opam development team
+    description: opam is a source-based package manager. It supports multiple simultaneous compiler installations, flexible package constraints, and a Git-friendly development workflow.
     contacts:
     - name: Mailing List
       link: https://lists.ocaml.org/listinfo/opam-devel
@@ -165,7 +165,7 @@ teams:
       role: Maintainer
   - id: ocaml-lsp-dev
     name: Ocaml-lsp
-    description: The Ocaml-lsp development team
+    description: TheOCaml Language Server Protocol implementation
     contacts:
     - name: GitHub
       link: https://github.com/ocaml/ocaml-lsp
@@ -185,7 +185,7 @@ teams:
       role: Maintainer
   - id: merlin-dev
     name: Merlin
-    description: The merlin development team
+    description: Context sensitive completion for OCaml in Vim and Emacs
     contacts:
     - name: Mailing List
       link: https://lists.ocaml.org/listinfo/merlin
@@ -208,7 +208,7 @@ teams:
       role: Maintainer
   - id: odoc-dev
     name: Odoc
-    description: The odoc development team
+    description: Documentation compiler for OCaml and Reason
     contacts:
     - name: GitHub
       link: https://github.com/ocaml/odoc
@@ -240,7 +240,7 @@ teams:
       role: Maintainer
   - id: ppxlib-dev
     name: Ppxlib
-    description: The ppxlib development team
+    description: Base library and tools for ppx rewriters
     contacts:
     - name: GitHub
       link: https://github.com/ocaml-ppx/ppxlib
@@ -263,7 +263,7 @@ teams:
       role: Maintainer
   - id: utop-dev
     name: Utop
-    description: The Utop development team
+    description: Universal toplevel for OCaml
     contacts:
     - name: GitHub
       link: https://github.com/ocaml-community/utop
@@ -277,7 +277,7 @@ teams:
       role: Maintainer
   - id: opam-publish-dev
     name: Opam-publish
-    description: The Opam-publish development team
+    description: A tool to ease contributions to opam repositories
     contacts:
     - name: GitHub
       link: https://github.com/ocaml-opam/opam-publish
@@ -297,7 +297,7 @@ teams:
       role: Maintainer
   - id: ocamlformat-dev
     name: Ocamlformat
-    description: The Ocamlformat development team
+    description: Auto-formatter for OCaml code
     contacts:
     - name: Mailing List
       link: https://lists.ocaml.org/listinfo/ocamlformat-dev
@@ -317,7 +317,7 @@ teams:
       role: Maintainer
   - id: dune-release-dev
     name: Dune-release
-    description: The Dune-release development team
+    description: Streamlining the release of dune packages to opam
     contacts:
     - name: GitHub
       link: https://github.com/tarides/dune-release
@@ -334,7 +334,7 @@ teams:
       role: Maintainer
   - id: mdx-dev
     name: Mdx
-    description: The Mdx development team
+    description: Execute code blocks inside your documentation
     contacts:
     - name: GitHub
       link: https://github.com/realworldocaml/mdx
@@ -348,7 +348,7 @@ teams:
       role: Maintainer
   - id: ocp-indent-dev
     name: Ocp-indent
-    description: The Ocp-indent development team
+    description: Indentation tool for OCaml, to be used from editors like Emacs and Vim.
     contacts:
     - name: GitHub
       link: https://github.com/OCamlPro/ocp-indent
@@ -359,7 +359,7 @@ teams:
       role: Lead Maintainer
   - id: ocamlfind-dev
     name: Ocamlfind
-    description: The Ocamlfind development team
+    description: The OCaml findlib library manager 
     contacts:
     - name: GitHub
       link: https://github.com/ocaml/ocamlfind
@@ -373,7 +373,7 @@ teams:
       role: Maintainer
   - id: omp-dev
     name: Omp
-    description: The Omp development team
+    description: Convert OCaml parsetrees between different major versions
     contacts:
     - name: GitHub
       link: https://github.com/ocaml-ppx/ocaml-migrate-parsetree
