@@ -7,9 +7,6 @@ teams:
   - name: Mailing List
     link: https://sympa.inria.fr/sympa/subscribe/caml-list
     kind: email
-  - name: Discord
-    link: https://discord.com/channels/436568060288172042/904141760052228116
-    kind: discord
   - name: GitHub
     link: https://github.com/ocaml/ocaml/issues
     kind: github
