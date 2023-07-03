@@ -506,3 +506,17 @@ working-groups:
   - name: Sudha Parimala
     github: Sudha247
     role: Organiser
+- id: wg-melange
+  name: Melange Working Group
+  description: Work on Melange - a mixture of tooling combined to produce JavaScript from OCaml & Reason.
+  contacts:
+  - name: GitHub
+    link: https://github.com/melange-re/melange
+    kind: github
+  members:
+  - name: Antonio Nuno Monteiro
+    github: anmonteiro
+    role: Organiser
+  - name: Javier Chávarri
+    github: jchavarri
+    role: Organiser
