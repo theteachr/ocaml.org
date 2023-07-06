@@ -5,7 +5,7 @@ let contact_icon (kind : Data.Governance.contact_kind) = match kind with
   | Chat -> Icons.chat
 
 let render_team_member (member : Data.Governance.Member.t) =
-  <div class="flex space-x-2">
+  <div class="flex gap-x-2">
     <img src="https://github.com/<%s member.github %>.png" alt="" class="h-32 w-32 mr-3 inline-block rounded-xl">
     <div>
       <div class="text-white text-lg font-semibold mt-3"><%s member.name %></div>
@@ -71,7 +71,7 @@ Layout.render
       <div class="">
         <div class="sm:text-center lg:col-span-8 lg:text-left">
           <div
-            class="flex justify-start space-x-3 items-center text-primary-600 hover:underline font-semibold mb-4 h-12">
+            class="flex justify-start gap-x-3 items-center text-primary-600 hover:underline font-semibold mb-4 h-12">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
               stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18">
@@ -79,11 +79,11 @@ Layout.render
             </svg>
             <a href="<%s Url.governance %>" class="hover:underline">Back to Governance</a>
           </div>
-          <h1 class="font-bold pb-6"><%s t.name %> Governance</h1>
+          <h1 class="font-bold pb-6"><%s t.name %></h1>
           <div class="text-2xl text-body-400">
             <%s t.description%>
           </div>
-          <div class="space-x-4">
+          <div class="flex flex-wrap gap-x-4">
             <% t.contacts |> List.iter (fun (contact : Data.Governance.contact) -> %>
             <a class="btn btn-secondary btn-lg mt-6 gap-2" href="<%s contact.link %>" target="_blank">
               <%s! contact_icon contact.kind "w-6 h-6" %>

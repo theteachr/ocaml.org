@@ -510,6 +510,9 @@ working-groups:
   - name: GitHub
     link: https://github.com/melange-re/melange
     kind: github
+  - name: "#melange on the ReasonML Discord"
+    link: https://discord.gg/reasonml
+    kind: discord
   members:
   - name: Antonio Nuno Monteiro
     github: anmonteiro
