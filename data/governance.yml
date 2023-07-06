@@ -520,3 +520,23 @@ working-groups:
   - name: Javier Chávarri
     github: jchavarri
     role: Organiser
+- id: wg-ocaml-org
+  name: OCaml.org Community Group
+  description: Work on OCaml.org - this website.
+  contacts:
+  - name: GitHub
+    link: https://github.com/ocaml/ocaml.org
+    kind: github
+  - name: "#ocaml.org on the OCaml Discord"
+    link: https://discord.gg/cCYQbqN
+    kind: discord
+  dev-meeting:
+    date: Biweekly on Mondays
+    time: 18:00 CET
+    link: https://us06web.zoom.us/j/86793886593?pwd=cXFMN201dGY0b0w3VDZoTXV1MUlMdz09
+    invite: https://calendar.google.com/calendar/u/0?cid=Y18wMmU0MWIyYWQwMDE2NWI0MDQ3ODlmYWQ3YzVkZjdlYTNhNGFlNjI3NDRjMTMzMDdlZTdmYjNmZDczODJmMWRkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
+    notes: https://docs.google.com/document/d/1ricnsicOB35TmuOM86guYr6HWo8A1iyVrHdb0cNxOXg/edit
+  members:
+  - name: Sabine Schmaltz
+    github: sabine
+    role: Organiser
