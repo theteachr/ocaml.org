@@ -2,7 +2,7 @@ teams:
 - id: compiler
   name: Compiler
   description: The OCaml Compiler team, responsible for the development and maintenance
-    of the language, the standard library and the compiler tools.
+    of the language, the standard library, and the compiler tools.
   contacts:
   - name: Mailing List
     link: https://sympa.inria.fr/sympa/subscribe/caml-list
@@ -136,7 +136,7 @@ teams:
       role: Maintainer
   - id: opam-dev
     name: Opam
-    description: opam is a source-based package manager. It supports multiple simultaneous compiler installations, flexible package constraints, and a Git-friendly development workflow.
+    description: Opam is a source-based package manager. It supports multiple simultaneous compiler installations, flexible package constraints, and a Git-friendly development workflow.
     contacts:
     - name: Mailing List
       link: https://lists.ocaml.org/listinfo/opam-devel
@@ -161,8 +161,8 @@ teams:
       github: samoht
       role: Maintainer
   - id: ocaml-lsp-dev
-    name: Ocaml-lsp
-    description: TheOCaml Language Server Protocol implementation
+    name: OCaml-LSP
+    description: The OCaml Language Server Protocol (LSP) implementation
     contacts:
     - name: GitHub
       link: https://github.com/ocaml/ocaml-lsp
@@ -412,7 +412,7 @@ teams:
 - id: packaging
   name: Packaging
   description: The Packaging team is responsible to ensure the quality of the OCaml
-    packages ecosystem, and in particular, to review submitions to the Opam repository.
+    packages ecosystem, and in particular, to review submissions to the opam repository.
   contacts:
   - name: GitHub
     link: https://github.com/ocaml/opam-repository
@@ -432,7 +432,7 @@ teams:
     role: Maintainer
 - id: infrastructure
   name: Infrastructure
-  description: The infrastructure team is responsible to maintain and evolve the infrastructure
+  description: The infrastructure team is responsible for the maintenance and evolution of the infrastructure
     powering the official OCaml projects, including the servers for OCaml.org and
     the opam-repository CI.
   contacts:
@@ -487,14 +487,14 @@ teams:
     role: Maintainer
 working-groups:
 - id: wg-eio
-  name: Eio Working Group
+  name: EIO Working Group
   description: Work on tools and libraries to do multicore programming with OCaml.
   contacts:
   - name: Matrix
     link: https://matrix.to/#/#eio:roscidus.com
     kind: chat
   dev-meeting:
-    date: Bi-weekly on Mondays
+    date: Biweekly on Mondays
     time: 10:00 AM BST
     link: http://meet.google.com/byo-dfiz-dou
     invite: https://calendar.google.com/calendar/u/4?cid=Y19iMDA5ZDA4MDg0YzIwYWMzMDQ4NjJhN2FkZWJiYjdmOTU0NGIxYzEwMmU0MDMyMTAzMDFiY2ZhYjcwMDBmMjNlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
