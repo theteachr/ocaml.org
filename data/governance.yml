@@ -237,7 +237,7 @@ teams:
       role: Maintainer
   - id: ppxlib-dev
     name: Ppxlib
-    description: Base library and tools for ppx rewriters
+    description: Base library and tools for PPX rewriters
     contacts:
     - name: GitHub
       link: https://github.com/ocaml-ppx/ppxlib
@@ -259,7 +259,7 @@ teams:
       github: panglesd
       role: Maintainer
   - id: utop-dev
-    name: Utop
+    name: UTop
     description: Universal toplevel for OCaml
     contacts:
     - name: GitHub
@@ -293,7 +293,7 @@ teams:
       github: samoht
       role: Maintainer
   - id: ocamlformat-dev
-    name: Ocamlformat
+    name: OCamlFormat
     description: Auto-formatter for OCaml code
     contacts:
     - name: Mailing List
@@ -314,7 +314,7 @@ teams:
       role: Maintainer
   - id: dune-release-dev
     name: Dune-release
-    description: Streamlining the release of dune packages to opam
+    description: Streamlining the release of Dune packages to opam
     contacts:
     - name: GitHub
       link: https://github.com/tarides/dune-release
@@ -330,7 +330,7 @@ teams:
       github: samoht
       role: Maintainer
   - id: mdx-dev
-    name: Mdx
+    name: MDX
     description: Execute code blocks inside your documentation
     contacts:
     - name: GitHub
@@ -345,7 +345,7 @@ teams:
       role: Maintainer
   - id: ocp-indent-dev
     name: Ocp-indent
-    description: Indentation tool for OCaml, to be used from editors like Emacs and Vim.
+    description: Indentation tool for OCaml to be used with editors like Emacs and Vim.
     contacts:
     - name: GitHub
       link: https://github.com/OCamlPro/ocp-indent
@@ -355,7 +355,7 @@ teams:
       github: AltGr
       role: Lead Maintainer
   - id: ocamlfind-dev
-    name: Ocamlfind
+    name: OCamlFind
     description: The OCaml findlib library manager 
     contacts:
     - name: GitHub
@@ -381,7 +381,7 @@ teams:
       role: Lead Maintainer
 - id: editors
   name: Editors
-  description: The Editors team develops IDE extensions for OCaml. OCaml currently has support for Vim, Emacs and VSCode.
+  description: The Editors team develops IDE extensions for OCaml. OCaml currently has support for Vim, Emacs, and VSCode.
   contacts: []
   subteams:
   - id: tuareg-dev
