@@ -135,7 +135,7 @@ teams:
       github: bobot
       role: Maintainer
   - id: opam-dev
-    name: Opam
+    name: opam
     description: Opam is a source-based package manager. It supports multiple simultaneous compiler installations, flexible package constraints, and a Git-friendly development workflow.
     contacts:
     - name: Mailing List
