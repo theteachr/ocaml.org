@@ -204,7 +204,7 @@ teams:
       github: trefis
       role: Maintainer
   - id: odoc-dev
-    name: Odoc
+    name: odoc
     description: Documentation compiler for OCaml and Reason
     contacts:
     - name: GitHub
@@ -273,7 +273,7 @@ teams:
       github: rgrinberg
       role: Maintainer
   - id: opam-publish-dev
-    name: Opam-publish
+    name: opam-publish
     description: A tool to ease contributions to opam repositories
     contacts:
     - name: GitHub
@@ -313,7 +313,7 @@ teams:
       github: EmileTrotignon
       role: Maintainer
   - id: dune-release-dev
-    name: Dune-release
+    name: dune-release
     description: Streamlining the release of Dune packages to opam
     contacts:
     - name: GitHub
@@ -344,7 +344,7 @@ teams:
       github: samoht
       role: Maintainer
   - id: ocp-indent-dev
-    name: Ocp-indent
+    name: ocp-indent
     description: Indentation tool for OCaml to be used with editors like Emacs and Vim.
     contacts:
     - name: GitHub
@@ -369,7 +369,7 @@ teams:
       github: dra27
       role: Maintainer
   - id: omp-dev
-    name: Omp
+    name: omp
     description: Convert OCaml parsetrees between different major versions
     contacts:
     - name: GitHub
